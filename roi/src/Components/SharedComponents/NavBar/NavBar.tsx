@@ -154,6 +154,12 @@ export const NavBar = () => {
                         size = 'large'
                         sx = {{ marginLeft: '20px'}}
                         onClick = { () => {navigate('/auth')}}>Sign In</Button>
+                    <Button 
+                        variant = 'outlined'
+                        color = 'secondary'
+                        size = 'large'
+                        sx = {{ marginLeft: '20px'}}
+                        onClick = { () => {navigate('/register')}}>Register</Button>
                 </Stack>
             </AppBar>
             <Drawer 
